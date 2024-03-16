@@ -1,0 +1,26 @@
+.carousel-item {
+    height: 105vh;
+    min-height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.custom-button {
+    color: #ff0000;
+    /* Ubah warna teks sesuai kebutuhan */
+    /* Atur properti lainnya sesuai kebutuhan */
+}
+
+/* .carousel-control-next,
+.carousel-control-prev {
+    margin-top: 350px;
+    height: 4px;
+    width: 4px;
+    padding: 12px;
+    transform: translateY(-50%);
+    background-color: #ec2127;
+    display: inline-block;
+}  */
