@@ -10,8 +10,26 @@ html, body {
 
 #navbar {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+#navbar-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+#navbar-list li {
+    margin-right: 10px;
+}
+
+#navbar-list li:last-child {
+    margin-right: 0;
+}
+
 
 #hero {
     background-image: url("../../asset/bg.png");

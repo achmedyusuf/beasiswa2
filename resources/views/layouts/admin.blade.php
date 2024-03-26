@@ -12,7 +12,7 @@
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-lg bg navbar-dark py-3 fixed-top" id="navbar">
+        <nav class="navbar navbar-expand-lg bg navbar-dark py-6 fixed-top" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="{{ asset('asset/PTBA white.png') }}" height="30" alt="">

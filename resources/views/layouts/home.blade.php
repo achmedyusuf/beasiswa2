@@ -24,13 +24,12 @@
                 <a class="navbar-brand" href="#">
                     <img src="{{ asset('asset/PTBA white.png') }}" height="30" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Beranda</a>
                         </li>
@@ -44,24 +43,10 @@
                             <a class="nav-link active" aria-current="page" href="login">Beasiswa</a>
                         </li>
                     </ul>
-                    {{-- <div class="d-flex">
-                        @if (Auth::check())
-                        <!-- Jika pengguna sudah login, tampilkan foto profil pengguna -->
-                        @if (Auth::user()->foto)
-                        <!-- Jika pengguna memiliki foto profil, tampilkan foto profil tersebut -->
-                        <img src="{{ asset('/foto profil/' . Auth::user()->foto) }}" alt="User Image" height="30" class="rounded-circle me-3">
-                        @else
-                        <!-- Jika pengguna tidak memiliki foto profil, tampilkan foto profil default -->
-                        <img src="{{ asset('/ava.png') }}" alt="Default User Image" height="30" class="rounded-circle me-3">
-                        @endif
-                        @else
-                        <!-- Jika pengguna belum login, tampilkan tombol login -->
-                        <a href="/login" class="btn" id="button-daftar">Masuk</a>
-                        @endif
-                    </div> --}}
                 </div>
             </div>
         </nav>
+        
         
         
 
